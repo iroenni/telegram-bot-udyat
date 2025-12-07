@@ -64,7 +64,7 @@ if not google_credentials_raw:
 
 google_credentials_str = json.loads(google_credentials_raw)
 
-google_credentials_dict = json.loads(google_credentials_str)
+google_credentials_dict = google_credentials_str
 
 
 
